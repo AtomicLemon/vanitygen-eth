@@ -38,6 +38,9 @@ Example output of above command:
 >Pattern: 518a                                                                  
 >Address: 0x518a7f9ae5bb72e34e8bcd25f6912199169ccfa0
 >Privkey: 0x17c71c86be6aef0db73b98357cba6679e598f882d46df79c1e53803a3b50e588
+
+### Speed
+On a Intel i5 CPU, I can generate around 650 Kkeys/s or 65,000 keys/second
   
 -----
   

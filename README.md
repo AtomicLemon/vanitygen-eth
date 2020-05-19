@@ -1,15 +1,6 @@
 -----
-Vanitygen ETH!  
+Vanitygen ETH+! (C++ version of VanityEth+)
 -----
-  
-**Download the latest binary from: https://github.com/kjx98/vanitygen-eth/releases !**  
-
-Forked from exploitagency/vanitygen-plus ,  
-then modified by Jesse Kuang
-to support ETH-Token and ERC20 Tokens,  
-and with the following changes:  
-  
- + upgrade support for openssl 1.1+
   
 **WARNING!** This program has not been thoroughly tested.  Please attempt importing an address first.  
 Send a tiny amount you don't mind losing to the address.  Then perform a test spend.  
@@ -22,18 +13,18 @@ If you have an altcoin you would like to add please let me know.
 
 -----
 Getting Started  
------  
-**Download the latest binary from: https://github.com/kjx98/vanitygen-eth/releases !**  
-Linux Binary (Compiled on 64bit Debian 18.04 Testing)
-Windows Binary (Compiled on Win10 64bit),  32 bits and OpenCL binary not yet
-  
-Extract the files, 
-open a terminal/command prompt,  
-change to directory containing vanitygen-eth binaries.  
-  
-Running On Linux: `./vanity -ARGS`,  etc  
-Running On Windows: `vanity.exe -ARGS`, etc  
-  
+-----
+
+I'll release binaries for Linux and windows soon :)
+
+Fow now, here are the instructions to build on Linux:
+```
+git clone https://github.com/AtomicLemon/vanitygen-eth
+sudo apt-get install libpcre3-dev
+make
+```
+Assuming you already have `make` and all that jazz installed
+
 **For generating addresses using the CPU(slower) use: vanity !**  
 **For generating addresses using the GPU(faster) use: oclvanity !**  
   
@@ -53,7 +44,6 @@ Example output of above command:
 **If you found this repo useful, please consider a donation.  Thank You!**  
   
  * Donate Bitcoin: 189182eexobQMBp7uXDQWWhUC2ptT1jWfU
- * Donate LTCcoin: LiVeShML2LEHBkRmjuiRBCUgEhtRdEtSst
- * Donate Ethereum or Ethereum Classic: 0x9672500b5355f410ecb01d1c4fe26e24acdc068c
- * Donate Monero: 49K25rZnQW6N3HaBDpPbq2DvbV8fezafaVCom5LkZNGqhLRFpHPVNyJbror58tBXejWPq5iy3EqU255MxnymRSsnKAbY8Aw
- * Donate EOS: EOS8fhYH8Jt5gy9DJffMZBgB5BvDt9cDfTaSpkEkHmRqEy88eLWK8
+ * Donate ETH/Tokens: 0x2EC6f3b0B64b82Ce6b9e6a96401380C287eBd8f4
+ 
+ Don't forget to credit the original developer! His donation addresses are on this page: https://github.com/kjx98/vanitygen-eth
